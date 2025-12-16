@@ -1,0 +1,12 @@
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Button Example")
+
+def click():
+    print("Button clicked")
+
+btn = tk.Button(root, text="Click Me", command=click)
+btn.pack()
+
+root.mainloop()
